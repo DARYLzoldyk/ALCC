@@ -1,0 +1,238 @@
+body{
+    background-color:#F5F0E6;
+}
+.header{
+    height:70%;
+    padding:0 50px;
+    background-color:#2B1B12;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.nav{
+    display: flex;
+    gap:10px;
+}
+.nav a {
+    color:white;
+    text-decoration:none;
+    font-size: 20px;
+}
+a {
+    margin-left:35px;
+}
+.nav a:hover{
+    color:#2B1B12;
+    background-color: white;
+    border-width: 0cqmax;
+    border-radius: 20px;
+
+}
+.header-buttons{
+    margin-left:180px;
+    display: flex;
+    gap:0px;
+}
+.about,
+.contact{
+    padding: 10px 22px;
+    cursor:pointer;
+}
+.about{
+    background:transparent;
+    border-radius:25px;
+    color: white;
+    border: 1px solid rgb(175, 167, 167);
+
+}
+.contact{
+    background: transparent;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid rgb(175, 167, 167);
+}
+.about:hover,
+.contact:hover{
+    background-color: white;
+    color: #2B1B12;
+}
+.logo{
+    padding-top: 10px;
+    margin-right:290px;
+    display:flex;
+    align-items: center;
+    gap:-9px;
+}
+.logo span{
+    margin-right:-25px;
+    font-size:30px;
+    font-weight:bold;
+    color: #713cff;
+}
+.logo h2{
+    color:white;
+}
+.MAIN{
+    background-image:url(hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60%;
+    margin-top:-63px;
+}
+.HEROW{
+    color: WHITE;
+    font-size: 80px;
+    margin-left:30px;
+    padding-top: 50px;
+}
+.jos,
+.watch{
+    margin-left:50px;
+    height:70px;
+    background:#2B1B12;
+    border-radius:7px;
+    border:2px solid white;
+    font-size: 30px;
+    color: white;
+    width: 300px;
+    cursor: pointer;
+    transition:0.3s
+}
+.jos:hover,
+.watch:hover{
+    background-color: white;
+    color:#C99A3D;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.written{
+    margin-left: 20px;
+    border-radius: 12px;
+    border:3px solid transparent;
+    color:white;
+    width:65%;
+    height:140px;
+}
+.writing{
+    background: rgba(0,0,0,0.55);
+    font-size: 25px;
+}
+.vision{
+    text-align: center;
+    border:2px solid transparent;
+    border-radius: 7px;
+    height:20%;
+    color:#2B1B12;
+    font-size: 40px;
+}
+
+.sto{
+    
+    font-size: 25px;
+}
+.NP{
+    height:560px;
+    display: flex;
+    gap:30px;
+}
+.NP1{
+width: 23%;
+border:4px solid #2B1B12;
+border-radius: 10px;
+ text-align: center;
+}
+.NP2{
+width: 23%;
+border:4px solid #2B1B12;
+border-radius: 10px;
+ text-align: center;
+
+}
+.NP3{
+width: 23%;
+border:4px solid #2B1B12;
+border-radius: 10px;
+text-align: center
+;
+}
+.NP4{
+width: 23%;
+background-color: re;
+border:4px solid #2B1B12;
+border-radius:10px;
+text-align: center;
+}
+.NP1:hover,
+.NP2:hover,
+.NP3:hover,
+.NP4:hover{
+    transition: 0.8s;
+    transform: scale(1.05);
+}
+.kids:hover{
+    background-color: #2B1B12;
+    color: white;
+}
+.ss{
+color:#2B1B12;
+font-size:25px;
+margin-bottom: 20px;
+}
+.sst{
+color:#2B1B12;
+font-size:20px;
+margin-bottom: 20px;
+}
+.footer{
+    height: 370px;
+    display: flex;
+    background-color: #2B1B12;
+    border: solid transparent;
+    border-radius: 3px;
+}
+.F1{
+width:23%;
+text-align: center;
+color: white;
+font-size:20px;
+}
+.F2{
+width:23%;
+text-align: center;
+color: white;
+padding-top: 60px;
+
+}
+.F3{
+width:23%;
+text-align: center;
+color: white;
+padding-top: 60px;
+}
+.F4{
+width:23%;
+text-align: center;
+color: white;
+padding-top: 60px;
+}
+.password{
+    background-color: transparent;
+    border: 2px solid rgb(189, 186, 186);
+    border-color:rgb(189, 186, 186);
+    border-radius:4px;
+    height: 30px;
+    width: 210px;
+    margin-left: 20px;
+}
+.pwb{
+     background-color: transparent;
+    border: 2px solid rgb(189, 186, 186);
+    border-color:rgb(189, 186, 186);
+    border-radius:4px;
+    height:35px;
+    color: rgb(189, 186, 186);
+}
+.quick-links{
+ font-size: 30px;
+}
